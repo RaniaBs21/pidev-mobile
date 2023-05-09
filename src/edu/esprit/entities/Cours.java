@@ -13,7 +13,7 @@ public class Cours {
     int idCours,niveau;
     float prix;
     String titre,cat,sousCat,desc,date;
-
+//entite cours
     public Cours() {
     }
 

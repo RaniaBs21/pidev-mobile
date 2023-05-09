@@ -7,7 +7,7 @@ package edu.esprit.entities;
 
 /**
  *
- * @author Hedi
+ * @author Admin
  */
 public class Quiz {
     int idQuiz;
