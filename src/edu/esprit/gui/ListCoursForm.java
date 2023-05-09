@@ -205,6 +205,39 @@ public class ListCoursForm extends BaseForm {
             e.printStackTrace();
         }
     }
+    //TextField searchField = new TextField();
+      //  Button searchButton = new Button("Rechercher");
+        //searchButton.addActionListener((evt) -> {
+          //  String searchType = searchField.getText();
+            /*ArrayList<Question_ass> filteredQuestions = ServiceQuestion.getInstance().getQuestionsByType(searchType);
+            list.removeAll();
+            if (filteredQuestions.isEmpty()) {
+                Dialog.show("Aucune question trouvée", "Aucune question ne correspond à la recherche.", "OK", null);
+            } else {
+                for (Question_ass q : filteredQuestions) {
+                    MultiButton sp = new MultiButton(q.getType_Q_Ass());
+                    sp.setTextLine1("type : " + q.getType_Q_Ass());
+                    sp.setTextLine2("description : " + q.getDescription_Q_Ass());
+                    list.add(sp);
+                    sp.addActionListener((evt2) -> {
+                        if (Dialog.show("Confirmation", "Que voulez vous faire ?", "Supprimer", "Modifier")) {
+                            if (ServiceQuestion.getInstance().deleteTest(q.getId_Q_Ass())) {
+                                Dialog.show("Success", "La question " + q.getType_Q_Ass() + " a été supprimé avec succées", new Command("OK"));
+                                previous.showBack();
+                            }
+                        } else {
+                            new UpdateQuestionForm(previous, q, this).show();
+                        }
+                    });
+                }
+            }
+            revalidate();
+        });
+        add(searchField);
+        add(searchButton);
+
+        getToolbar().addMaterialCommandToLeftBar("", FontImage.MATERIAL_ARROW_BACK, e -> previous.showBack());
+    }*/hhhhhhhhhhhhhhhhhhhhhhhhhhhhh
 //-- DON'T EDIT ABOVE THIS LINE!!!
 
     @Override
