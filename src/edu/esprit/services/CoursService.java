@@ -21,10 +21,12 @@ import java.util.Map;
 
 /**
  *
- * @author Hedi
+ * @author Admin
  */
 public class CoursService {
     
+    
+    //creation d'instance
     public static CoursService instance = null;
 
     public static boolean resultOk = true;
@@ -72,6 +74,7 @@ public class CoursService {
                 }
             }
         });
+        //executer la requete
         NetworkManager.getInstance().addToQueueAndWait(req);
         return result;
     }      

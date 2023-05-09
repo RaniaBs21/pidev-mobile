@@ -25,7 +25,7 @@ public class ArtPlus {
     private Resources theme;
 
     public void init(Object context) {
-        // use two network threads instead of one
+
         updateNetworkThreadCount(2);
 
         theme = UIManager.initFirstTheme("/theme");
