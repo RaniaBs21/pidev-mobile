@@ -7,7 +7,7 @@ package edu.esprit.entities;
 
 /**
  *
- * @author Hedi
+ * @author 
  */
 public class Commentaire {
     int id,nbLike,nbDislike,idPost;
