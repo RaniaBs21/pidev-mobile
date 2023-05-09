@@ -42,7 +42,7 @@ public class CoursService {
         req = new ConnectionRequest();
     }
 
-    public ArrayList<Cours> affichageCours() {
+  /*  public ArrayList<Cours> affichageCours() {
         ArrayList<Cours> result = new ArrayList<>();
         String url = Statics.BASE_URL + "/cours/all";
         req.setUrl(url);
@@ -71,7 +71,7 @@ public class CoursService {
                     ex.printStackTrace();
                 }
             }
-        });
+        });*/s
         NetworkManager.getInstance().addToQueueAndWait(req);
         return result;
     }      
