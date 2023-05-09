@@ -7,7 +7,7 @@ package edu.esprit.entities;
 
 /**
  *
- * @author rahma
+ * @author Admin
  */
 public class Cours {
     int idCours,niveau;
