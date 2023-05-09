@@ -120,7 +120,8 @@ public class AddPostForm extends com.codename1.ui.Form {
 
 //-- DON'T EDIT ABOVE THIS LINE!!!
     public void onButton_2ActionEvent(com.codename1.ui.events.ActionEvent ev) {
-        new InboxForm().show();
+        //new InboxForm().show();
+        new ListPostForm().show();
     }
 
 }
